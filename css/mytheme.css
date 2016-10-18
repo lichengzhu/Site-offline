@@ -65,7 +65,7 @@ h2.section-heading{
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/desk.jpg) no-repeat center center;
+    background: url(../img/desk.png) no-repeat center center;
     background-size: cover;
 }
 
@@ -80,7 +80,7 @@ h2.section-heading{
 .intro-message > h1 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-    font-size: 5em;
+    font-size: 3.5em;
     line-height: 1.5em;
 }
 
@@ -112,7 +112,7 @@ section#story-teller h2 {
 }
 
 section#data-scientist {
-    background: url(../img/hands.png) no-repeat;
+    background: url(../img/hands.png) no-repeat center center;
     background-size: cover;
     color: white;
 }
@@ -144,7 +144,15 @@ section#data-scientist {
 }
 
 .intro-header-research {
-    background: url(../img/care.png) no-repeat;
+    background: url(../img/tailor.png) no-repeat center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.intro-header-design {
+    background: url(../img/wedding2.png) no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -407,4 +415,8 @@ button#testing{
 }
 .soc-mail:before {
     content:'\e01f';
+}
+
+section.front-content h2 {
+    line-height: 1.5em;
 }
