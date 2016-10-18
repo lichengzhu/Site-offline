@@ -15,6 +15,19 @@
 
 </head>
 <body>
+	<button class="hamburger">
+		<div class="bars">
+		</div>
+		<div class="bars">
+		</div>
+		<div class="bars">
+		</div>
+	</button>
+
+	<nav class="mobile-nav">
+
+	</nav>
+
 	<!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
         <div class="container topnav">
@@ -26,7 +39,14 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand topnav" href="#">Licheng Zhu</a>
+                <a class="navbar-brand topnav" href="index.html">Licheng Zhu</a>
+                <!-- social media icon code supported by https://perfecticons.com/ -->
+                <ul class="soc">
+				    <li><a class="soc-github" href="https://github.com/lichengzhu"></a></li>
+				    <li><a class="soc-twitter" href="https://twitter.com/licheng_zhu"></a></li>
+				    <li><a class="soc-linkedin" href="https://www.linkedin.com/in/lichengzhu"></a></li>
+				    <li><a class="soc-mail soc-icon-last" href="mailto:lichengzhu@outlook.com"></a></li>
+				</ul>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -46,7 +66,7 @@
 
 	<!-- Header -->
     <!-- <a name="about"></a> -->
-    <div class="intro-header">
+    <header class="intro-header">
         <div class="container">
 
             <div class="row">
@@ -56,7 +76,7 @@
                         <h1>Story Teller</h1>
                         <h1>Data Scientist</h1>
                         
-                        <hr class="intro-divider">
+                        <!-- <hr class="intro-divider"> -->
                         <!-- <ul class="list-inline intro-social-buttons">
                             <li>
                                 <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
@@ -75,17 +95,58 @@
         </div>
         <!-- /.container -->
 
-    </div>
+    </header>
 
 
     <!-- Page Content -->
 
-    <div class="content-section-a">
+    <section id="thinker" class="front-content">
+    	<div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-message">
+                    	<h2>___________</h2>
+                        <h2>Thinking, Reflection and Beyond</h2>
+                        <!-- <hr class="section-heading-spacer"> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="story-teller" class="front-content">
+    	<div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-message">
+                    	<h2>___________</h2>
+                        <h2>It's not about technology <br><br>It's about human and emotions</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="data-scientist" class="front-content">
+    	<div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-message">
+                    	<h2>___________</h2>
+                        <h2>Qualitative and Quantitative<br><br>Data getting me closer to users</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- <div class="content-section-a">
 
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-sm-6">
-                    <!-- hr class="section-heading-spacer"> -->
                     <div class="clearfix"></div>
                     <h2 class="section-heading">Thinking, Reflection<br>and Beyond</h2>
                     <p class="lead">
@@ -107,7 +168,6 @@
 
             <div class="row">
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                    <!-- <hr class="section-heading-spacer"> -->
                     <div class="clearfix"></div>
                     <h2 class="section-heading">It's not about technology <br>It's about human and emotions</h2>
                     <p class="lead">
@@ -129,9 +189,8 @@
 
             <div class="row">
                 <div class="col-lg-5 col-sm-6">
-                    <!-- <hr class="section-heading-spacer"> -->
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Qualitative and Quantitative<br>Data getting us closer to users</h2>
+                    <h2 class="section-heading">Qualitative and Quantitative<br>Data getting me closer to users</h2>
                     <p class="lead">
                     	Nam nec ultricies purus. Vivamus faucibus egestas mollis. Nam in orci luctus, lacinia nisl sit amet, suscipit lectus. Donec et sodales dui, eget mollis nisi. Morbi euismod nisl sed orci vehicula, at pretium lacus vulputate. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent quis nibh tortor.
                     </p>
@@ -143,7 +202,7 @@
 
         </div>
 
-    </div>
+    </div> -->
 
 
     <!-- footer -->
@@ -151,14 +210,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <p class="copyright text-muted small">Written with &#128153; in HTML, CSS &amp; JavaScript</p>
+                    <p class="copyright text-muted small">Written with &#128153;&nbsp; in HTML, CSS &amp; JavaScript</p>
                 </div>
             </div>
         </div>
     </footer>
 
     <!-- Testing if JavaSrcipt is working -->
-	<button id="testing" class="btn btn-success" onclick="$(this).hide();">Testing!</button>
+	<!-- <button id="testing" class="btn btn-success" onclick="$(this).hide();">Testing!</button> -->
 	
 
 
@@ -168,5 +227,6 @@
 	<!-- Using CDN: Latest compiled and minified JavaScript -->
 	<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
 </body>
 </html>
