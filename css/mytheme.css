@@ -117,10 +117,6 @@ section#data-scientist {
     color: white;
 }
 
-section.front-content h2 {
-    font-size: 3em;
-}
-
 
 /*non-front-page*/
 
@@ -264,7 +260,6 @@ section.profolio h2 {
         float: left;
         margin-top: 15px;
     }
-    /*button.*/
 
 }
 
@@ -294,6 +289,10 @@ section.profolio h2 {
         box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
     }
 
+    section.front-content h2 {
+    font-size: 1.3em;
+}
+
 }
 
 
@@ -302,7 +301,7 @@ footer {
     padding: 0 0 10px 0;
     background-color: white; /*f8f8f8*/
     text-align: center;
-    font-size: 1.2em;
+    font-size: 0.8em;
 
 }
 
@@ -409,5 +408,3 @@ button#testing{
 .soc-mail:before {
     content:'\e01f';
 }
-
-
