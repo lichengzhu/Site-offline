@@ -96,7 +96,7 @@ h2.section-heading{
 }
 
 section#thinker {
-    background: url(../img/book3.png) no-repeat;
+    background: url(../img/book4.jpg) no-repeat;
     background-size: cover;
     color: white;
 }
@@ -115,6 +115,13 @@ section#data-scientist {
     background: url(../img/hands.png) no-repeat center center;
     background-size: cover;
     color: white;
+}
+
+section.front-content {
+    padding-top: 50px; /* When making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap with content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
 }
 
 
