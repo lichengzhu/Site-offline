@@ -1,4 +1,4 @@
-.tester{
+/*.tester{
     width: 10px;
     left: 0px;
     background: green;
@@ -8,7 +8,7 @@
 .tester:active{
    background: yellow;
    width:100px;
-}
+}*/
 
 body,
 html {
