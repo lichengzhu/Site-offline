@@ -1,3 +1,14 @@
+.tester{
+    width: 10px;
+    left: 0px;
+    background: green;
+    transition: all 1s linear
+}
+
+.tester:active{
+   background: yellow;
+   width:100px;
+}
 
 body,
 html {
@@ -102,7 +113,7 @@ section#thinker {
 }
 
 section#story-teller {
-    background: url(../img/laugh.png) no-repeat;
+    background: url(../img/laugh.jpg) no-repeat;
     background-size: cover;
     color: white;
 }
@@ -112,7 +123,7 @@ section#story-teller h2 {
 }
 
 section#data-scientist {
-    background: url(../img/hands.png) no-repeat center center;
+    background: url(../img/hands.jpg) no-repeat center center;
     background-size: cover;
     color: white;
 }
@@ -151,7 +162,7 @@ section.front-content {
 }
 
 .intro-header-research {
-    background: url(../img/tailor.png) no-repeat center center;
+    background: url(../img/tailor.jpg) no-repeat center center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -350,6 +361,8 @@ button#testing{
 }
 
 .soc {
+    width: 200px;
+    display: inline-block;
     overflow:hidden;
     margin:0; 
     padding:10px 10px;
@@ -358,7 +371,7 @@ button#testing{
 
 .soc li {
     display:inline-block;
-    *display:inline;
+    /**display:inline*/;
     zoom:1;
 }
 
