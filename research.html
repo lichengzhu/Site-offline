@@ -36,7 +36,7 @@
                     <li><a href="index.html">Home</a></li>
                     <li><a href="research.html">UX Research</a></li>
                     <li><a href="design.html">Design</a></li>
-                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="about.html">About</a></li>
                     <!-- <li><a href="contact.html">Contact</a></li> -->
                 </ul>
             </div>
@@ -62,22 +62,6 @@
 
     <br>
 
-    
-
-    <!-- <section class="projects">
-        <div class="row">
-            <div class="col-md-4 col-sm-6 col-xs-1">
-                <div class="card card-inverse">
-                    <img class="card-img" src="img/hug.png" alt="">
-                    <div class="card-img-overlay">
-                        <h4 class="card-title">Card title</h4>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
 
     <!-- project -->
     <section id="profolio">
@@ -89,7 +73,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-6 col-xs-12 portfolio-item">
+                <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item">
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -99,7 +83,7 @@
                         <img src="img/research/financial.png" class="img-responsive" alt="">
                     </a>
                 </div>
-                <div class="col-sm-6 col-xs-12 portfolio-item">
+                <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item">
                     <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -109,7 +93,7 @@
                         <img src="img/research/financial.png" class="img-responsive" alt="">
                     </a>
                 </div>
-                <div class="col-sm-6 col-xs-12 portfolio-item">
+                <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item">
                     <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -119,36 +103,6 @@
                         <img src="img/research/financial.png" class="img-responsive" alt="">
                     </a>
                 </div>
-                <div class="col-sm-6 col-xs-12 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/research/financial.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <!-- <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/safe.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/submarine.png" class="img-responsive" alt="">
-                    </a>
-                </div> -->
             </div>
         </div>
     </section>
@@ -163,14 +117,14 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-6 col-sm-offset-3 col-xs-12 portfolio-item">
+                <div class="col-sm-4 col-sm-offset-4 col-xs-12 portfolio-item">
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/research/multiple-network.png" class="img-responsive" alt="picture of a multiple-network derived from a research paper of mine">
+                        <img src="img/research/multiple-network.png" class="img-responsive" alt="picture of a multiple-network derived from a research paper of mine" data-toggle="modal" data-target="#special-project">
                     </a>
                 </div>
                 
@@ -190,6 +144,33 @@
             </div>
         </div>
     </footer>
+
+    <!-- Button trigger modal -->
+    <!-- <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#project1">
+      Launch demo modal
+    </button> -->
+
+    <!-- Modal -->  <!-- !!!id!!! -->
+    <div class="modal fade" id="special-project" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h3 class="modal-title" id="myModalLabel">The Genesis of Organizational Forms</h3>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+         
+          <!-- <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div> -->
+        </div>
+      </div>
+    </div>
 
     <!-- Testing if JavaSrcipt is working -->
 	<!-- <button id="testing" class="btn btn-success" onclick="$(this).hide();">Testing!</button> -->

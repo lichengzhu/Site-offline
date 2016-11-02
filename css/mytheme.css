@@ -177,6 +177,14 @@ section.front-content {
     -o-background-size: cover;
 }
 
+.intro-header-about {
+    background: url(../img/library2.jpg) no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
 #portfolio .portfolio-item .portfolio-link .caption {
     background: rgba(24,188,156,.9);
     position: absolute;
@@ -202,6 +210,34 @@ section.profolio h2 {
     margin: 3%;
 }
 
+
+/*Modals*/
+/*.modal-content {
+    width: 80%;
+}*/
+
+h3.modal-title {
+    text-align: center;
+}
+
+.modal-dialog {
+    width: 80%;
+}
+.modal-header {
+  padding: 15px;
+  border-bottom: 1px solid white/*#e5e5e5*/;
+}
+.modal-header .close {
+  margin-top: -2px;
+}
+.modal-title {
+  margin: 0;
+  line-height: 1.42857143;
+}
+.modal-body {
+  position: relative;
+  padding: 15px;
+}
 
 
 
@@ -317,6 +353,12 @@ section.profolio h2 {
 
     section.front-content h2 {
     font-size: 1.3em;
+    }
+    
+    .modal-dialog {
+    width: 80%;
+    margin: 30px auto;
+}
 }
 
 }
@@ -332,7 +374,8 @@ footer {
 }
 
 p.copyright {
-    margin: 15px 0 0;
+    margin: 15px auto;
+    text-align: center;
 }
 
 button#testing{
