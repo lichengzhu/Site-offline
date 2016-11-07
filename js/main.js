@@ -13,8 +13,13 @@
 // });
 
 
-function scrollTo() {
-            $('html, body').animate({ scrollTop: $('#div_id').offset().top }, 'slow');
-            return false;
-        }
+/* Set the width of the side navigation to 30% */
+function openNav() {
+    document.getElementById("sidenav").style.width = "40%";    
+}
+
+/* Set the width of the side navigation to 0 */
+function closeNav() {
+    document.getElementById("sidenav").style.width = "0";
+}
 
