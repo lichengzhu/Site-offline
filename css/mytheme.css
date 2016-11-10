@@ -167,7 +167,7 @@ section.front-content {
 }
 
 .intro-header-design {
-    background: url(../img/wedding2.png) no-repeat;
+    background: url(../img/wedding2.png) no-repeat fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -175,7 +175,7 @@ section.front-content {
 }
 
 .intro-header-about {
-    background: url(../img/library2.jpg) no-repeat;
+    background: url(../img/library2.jpg) no-repeat fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -336,7 +336,48 @@ section .caption {
 }*/
 
 
+.portfolio-item img{
+    -webkit-filter: blur(3px);
+    transition: 0.2s;
+}
 
+.portfolio-item img:hover {
+    -webkit-filter: none;
+}
+
+/* Transitions */
+
+.transition-all-fast {
+  -moz-transition: all ease-in-out 0.17s;
+  -o-transition: all ease-in-out 0.17s;
+  -webkit-transition: all ease-in-out 0.17s;
+  transition: all ease-in-out 0.17s;
+}
+.transition-all-normal {
+  -moz-transition: all ease-in-out 0.32s;
+  -o-transition: all ease-in-out 0.32s;
+  -webkit-transition: all ease-in-out 0.32s;
+  transition: all ease-in-out 0.32s;
+}
+.transition-all-slow {
+  -moz-transition: all ease-in-out 0.65s;
+  -o-transition: all ease-in-out 0.65s;
+  -webkit-transition: all ease-in-out 0.65s;
+  transition: all ease-in-out 0.65s;
+}
+
+.transition-all-bez-normal {
+    -moz-transition: all 200ms cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
+    -o-transition: all 200ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -webkit-transition: all 200ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: all 200ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.transition-all-bez-slow {
+    -moz-transition: all 950ms cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
+    -o-transition: all 950ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -webkit-transition: all 950ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: all 950ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
 
 
 
