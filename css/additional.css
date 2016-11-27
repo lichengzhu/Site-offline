@@ -358,6 +358,7 @@ h6,
 }
 .btn-social {
   border-color: #c0a375;
+  color: #ffffff;
 }
 .btn-social:hover {
   background: #c0a375;
@@ -476,4 +477,13 @@ h6,
 }
 #social-buttons4-d .mbr-section-title {
   font-size: 30px;
+}
+
+#contact-section h5{
+  font-size: 2em;
+  color: #ffffff;
+}
+
+p.text-xs-center {
+  font-size: 0.8em;
 }

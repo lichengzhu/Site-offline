@@ -1,3 +1,8 @@
+# Verison 2.1
+Clearned up small mistakes both in the content and html/css code. Also updated information for both about section and research section. Added a row to the UX research section, making four projects in total in this section.
+<br>
+Next step will be focusing on content updates for UX research projects, including one data analysis project, one survey design project, two projects of qualitative interviews and one special project.
+
 # Verison 2.0
 I refreshed the overall structure of the site, and combine most separate pages into one page. Not too sure if I should keep the future Blog page independent or not.
 <br>
