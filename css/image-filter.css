@@ -9,13 +9,22 @@
 }
 
 .card-img-top:hover {
-    opacity: 0.3;
-    filter: alpha(opacity=30);
+    opacity: 0.5;
+    filter: alpha(opacity=50);
 }
 
 .card-img:hover .img-text {
 	visibility:visible;
 }
+
+p.card-text {
+	padding-left: 6%;
+	padding-right: 6%;
+}
+
+/*.special-project {
+	background: rgba(144, 168, 120, 0.08);
+}*/
 
 
 /*.hovereffect {

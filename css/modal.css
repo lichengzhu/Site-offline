@@ -1,7 +1,7 @@
 /* .modal-fullscreen */
 
 .modal-fullscreen {
-  background: rgba(13, 61, 86, 0.9);
+  background: rgba(144, 168, 120, 0.85);
 }
 .modal-fullscreen .modal-content {
   background: transparent;
@@ -32,6 +32,18 @@
   padding-top: 20px;
   font-size: 2.3em;
 }
+figcaption.modal-body {
+  display: block;
+  text-align: center;
+  font-size: 0.8em;
+}
+img.modal-body {
+  display: block;
+  width: 100%;
+}
+
+
+
 /*.modal.fade .modal-dialog {
     -webkit-transform: scale(0.1);
     -moz-transform: scale(0.1);
