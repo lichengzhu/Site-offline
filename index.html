@@ -213,7 +213,7 @@
             <div class="container">
               <div class="card cart-block">
                   <div class="card-img">
-                    <img src="img/data-dive-cup.jpg" class="card-img-top" data-toggle="modal" data-target="#datadive" style="width: 80%;">
+                    <img src="img/data-dive-cup.jpg" class="card-img-top" data-toggle="modal" data-target="#datadive" style="width: 80%;" id="card-img-base">
                     <!-- <p class="img-text">&#9906;</p> -->
                   </div>
                   <div class="card-block">
@@ -235,7 +235,7 @@
                     <div class="card-block">
                         <h4 class="card-title">"Shut up and let users talk"</h4>
                         <!-- <h5 class="card-subtitle">This is a subtitle</h5> -->
-                        <p class="card-text">Interview is both easy and hard. What is the relationship between the researcher and the user in a deep, involved interview? How to form a sympathetic bond with users while bearing an investigative agenda in mind? My answer is: silence.</p>
+                        <p class="card-text">Interviewing is both easy and hard. What is the relationship between the researcher and the user in a deep, involved interview? How to form a sympathetic bond with users while bearing an investigative agenda in mind? My answer is: silence.</p>
                         
                     </div>
                 </div>
@@ -596,6 +596,10 @@ L: “Absolutely. A dire channel.”<br>
 <script src="material/dropdown/js/script.min.js"></script>
 <script src="material/touchSwipe/jquery.touchSwipe.min.js"></script>
 <script src="material/theme/js/script.js"></script>
+<script type="text/javascript">
+    // var baseheight = $("#card-img-base").height();
+    $('.card-img-top').css('height', '330');
+</script>
 
 <!-- <script src="js/classie.js"></script>
 <script src="js/overlay.js"></script> -->

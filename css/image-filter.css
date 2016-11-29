@@ -6,6 +6,15 @@
      -moz-transition: all 0.3s ease;
       -ms-transition: all 0.3s ease;
           transition: all 0.3s ease;
+/*  height: 300px;*/
+}
+.mbr-cards-row {
+	display: table;
+}
+[class*="col-"] {
+    float: none;
+    display: table-cell;
+    vertical-align: top;
 }
 
 .card-img-top:hover {
