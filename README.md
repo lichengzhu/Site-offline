@@ -1,3 +1,7 @@
+# Version 2.1.1
+Updated how images are displayed. Found and fixed some grammatical mistakes. In next update, I will try to revise project descriptions.
+
+
 # Verison 2.1
 Clearned up small mistakes both in the content and html/css code. Also updated information for both about section and research section. Added a row to the UX research section, making four projects in total in this section.
 <br>

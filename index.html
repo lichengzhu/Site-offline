@@ -213,7 +213,7 @@
             <div class="container">
               <div class="card cart-block">
                   <div class="card-img">
-                    <img src="img/data-dive-cup.jpg" class="card-img-top" data-toggle="modal" data-target="#datadive" style="width: 80%;" id="card-img-base">
+                    <img src="img/data-dive-cup.jpg" class="card-img-top" data-toggle="modal" data-target="#datadive" style="width: 80%;  max-width: 550px; min-width: 500px;" id="card-img-base">
                     <!-- <p class="img-text">&#9906;</p> -->
                   </div>
                   <div class="card-block">
@@ -229,7 +229,7 @@
             <div class="container">
                 <div class="card cart-block">
                     <div class="card-img">
-                        <img src="img/shut-up.jpg" class="card-img-top" data-toggle="modal" data-target="#shut-up" style="width: 80%;">
+                        <img src="img/shut-up.jpg" class="card-img-top" data-toggle="modal" data-target="#shut-up" style="width: 80%;  max-width: 550px; min-width: 500px;">
                         <!-- <p class="img-text">&#9906;</p> -->
                     </div>
                     <div class="card-block">
@@ -247,7 +247,7 @@
             <div class="container">
               <div class="card cart-block">
                   <div class="card-img">
-                    <img src="img/survey.png" class="card-img-top" data-toggle="modal" data-target="#marketing" style="width: 80%;">
+                    <img src="img/survey.png" class="card-img-top" data-toggle="modal" data-target="#marketing" style="width: 80%; max-width: 550px; min-width: 500px;">
                     <!-- <p class="img-text">&#9906;</p> -->
                   </div>
                   <div class="card-block">
@@ -263,7 +263,7 @@
             <div class="container special-project">
                 <div class="card cart-block">
                     <div class="card-img">
-                        <img src="img/network-multiple.png" class="card-img-top" data-toggle="modal" data-target="#organizational-form" style="width: 80%;">
+                        <img src="img/network-multiple.png" class="card-img-top" data-toggle="modal" data-target="#organizational-form" style="width: 80%; max-width: 550px; min-width: 500px;">
                         <!-- <p class="img-text">&#9906;</p> -->
                     </div>
                     <div class="card-block">
@@ -311,7 +311,7 @@
             <div class="container">
               <div class="card cart-block">
                   <div class="card-img">
-                    <img src="img/parking.jpg" class="card-img-top" data-toggle="modal" data-target="#park-me" style="width: 80%;">
+                    <img src="img/parking.jpg" class="card-img-top" data-toggle="modal" data-target="#park-me" style="width: 80%;  max-width: 550px; min-width: 500px;">
                   </div>
                   <div class="card-block">
                     <h4 class="card-title">(upcoming) ParkMe: Solving parking issue in Ann Arbor</h4>
@@ -326,7 +326,7 @@
             <div class="container special-project">
                 <div class="card cart-block">
                     <div class="card-img">
-                        <img src="img/poster.png" class="card-img-top" data-toggle="modal" data-target="#poster" style="width: 80%;">
+                        <img src="img/poster.png" class="card-img-top" data-toggle="modal" data-target="#poster" style="width: 80%;  max-width: 550px; min-width: 500px;">
                     </div>
                     <div class="card-block">
                         <h4 class="card-title">(upcoming) Something special: Visual design of smile</h4>
@@ -560,7 +560,7 @@ L: “Absolutely. A dire channel.”<br>
 
 <br>To overcome such an issue, I wrote a python script that parsed out contact and communication methods of Chinese environmental NGOs from three major recruiting sites for civil society organizations in China. The data gathered were later stored locally in a relational database on my laptop. This not only guaranteed that the contact information is most up-to-date, but also helped me filter out organizations that were inactive or even closed down. Using these contact information, I was able to compose targeted survey invitation to my research subjects and achieve relevantly high response rate.<br>
 
-<br><img src="img/network-multiple.png" alt="multiple networks" style="width: 100%;"><br><figcaption style="text-align: center; font-size: 0.8em;">Visualization: multiple networks. This graph of multiple networks were constructed by four social relations among Chinese environment NGOs: Financial aid (NGOs who receive/give financial aid to each other), Information exchange (sharing information with each other), support network (When help is needed, which organization will be contacted) and collaboration (with which organization collaborative projects were conducted). Visualization made possible by muxViz version 1.0.5 (Domenico, Porter and Arenas 2015) https://github.com/manlius/muxViz. Each node represents an indiviadual NGO, and the vertrcies are directed. The multiplex networks in this graph are constructed in accordance with betweenness centrality measures, on the basis of Fruchterman-Reingold force-directed layout. </figcaption><br>
+<br><img src="img/network-multiple.png" alt="multiple networks" style="width: 100%;"><br><figcaption style="text-align: center; font-size: 0.8em;">Visualization: multiple networks. This graph of multiple networks was constructed by four social relations among Chinese environment NGOs: Financial aid (NGOs who receive/give financial aid to each other), Information exchange (sharing information with each other), support network (When help is needed, which organization will be contacted) and collaboration (joint projects/programs). Visualization was made possible by muxViz version 1.0.5 (Domenico, Porter and Arenas 2015) https://github.com/manlius/muxViz. Each node represents an indiviadual NGO, and the vertrcies are directed. The multiplex networks in this graph were constructed in accordance with betweenness centrality of each node, on the basis of Fruchterman-Reingold force-directed layout. </figcaption><br>
 
 <br>The returned survey helped me to map out above sociogram of inter-organizational networks of Chinese environmental NGOs. I explored different perspectives and algorithms to draw such a four-layered multiple networks. One of the most significant conclusions I reached from this graph was about the severe uneven distribution of resources among these NGOs. Additionally, it seems that resource availability seems to be correlated with the centrality level one organization occupies in the field, which was confirmed by statistical tests* (more details can be found in my paper).<br>
 
@@ -599,6 +599,17 @@ L: “Absolutely. A dire channel.”<br>
 <script type="text/javascript">
     // var baseheight = $("#card-img-base").height();
     $('.card-img-top').css('height', '330');
+</script>
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-88360097-1', 'auto');
+  ga('send', 'pageview');
+
 </script>
 
 <!-- <script src="js/classie.js"></script>
