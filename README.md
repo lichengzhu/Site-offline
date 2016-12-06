@@ -1,3 +1,6 @@
+# Version 2.1.2
+Updated source code to include Google Web Analytics.
+
 # Version 2.1.1
 Updated how images are displayed. Found and fixed some grammatical mistakes. In next update, I will try to revise project descriptions.
 
