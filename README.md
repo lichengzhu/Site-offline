@@ -1,3 +1,6 @@
+# Version 2.1.3
+Videos no longer stored locally. All videos have been moved to my Youtube channel and accessed via iframe.
+
 # Version 2.1.2
 Updated source code to include Google Web Analytics.
 
