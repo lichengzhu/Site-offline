@@ -1,5 +1,9 @@
 /* .modal-fullscreen */
 
+h4, h5, h6 {
+  text-align: center;
+  display: block;
+}
 .modal-fullscreen {
   background: rgba(144, 168, 120, 0.85);
 }
@@ -24,6 +28,7 @@
     font-weight: 100;
     text-shadow: none;
 }
+
 .close:hover {
   color: white;
 }
@@ -55,7 +60,14 @@ img.modal-body {
     height: 100%;
 }
 
+.modal-open .modal {
+  overflow-y: hidden;
+}
 
+.modal-body {
+  overflow-y: scroll;
+  height: 100vh;
+}
 
 /*.modal.fade .modal-dialog {
     -webkit-transform: scale(0.1);
