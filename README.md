@@ -1,7 +1,7 @@
 # Version 2.2
 Fixed two issues:
 1. Scrolling malfuction.
-2. A problem caused by using Jarallax module which title could not be displayed properly.
+2. A problem caused by using Jarallax module where modal titles and close buttons can not be displayed properly.
 Thanks @CXHtml for helping me out!!!!! Please visit his github page for my appreciation. https://github.com/CXHtml.
 
 # Version 2.1.3
