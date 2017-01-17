@@ -1,5 +1,5 @@
 # Version 2.2
-A Series of updates including:<br>
+A series of updates including:<br>
 1. Added a design project: ParkMe.<br>
 2. Deleted a research project: marketing research project. <br>
 3. Additional projects are hidden by default now, and will not be shown until clicking on the "More" button.<br>
