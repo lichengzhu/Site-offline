@@ -1,16 +1,16 @@
 # Version 2.2
 A Series of updates including:<br>
-1. Added a design project: ParkMe.
-2. Deleted a research project: marketing research project. 
+1. Added a design project: ParkMe.<br>
+2. Deleted a research project: marketing research project. <br>
 3. Additional projects are hidden by default now, and will not be shown until clicking on the "More" button.<br>
 In next update, the "About" section be added with a portal to my worldpress blog (still under construction).
 
 
 
 # Version 2.1.4
-Fixed two issues:
-1. Scrolling malfuction.
-2. A problem caused by using Jarallax module where modal titles and close buttons can not be displayed properly.
+Fixed two issues: <br>
+1. Scrolling malfuction. <br>
+2. A problem caused by using Jarallax module where modal titles and close buttons can not be displayed properly. <br>
 Thanks @CXHtml for helping me out!!!!! Please visit his github page. https://github.com/CXHtml.
 
 
