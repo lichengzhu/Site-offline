@@ -1991,7 +1991,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 .mbr-iconfont.mbr-iconfont-btn,
 .mbr-buttons__btn .mbr-iconfont {
   /*padding-right: 0.4em;*/
-  padding-left: 1px;
+  padding-left: 2px;
   padding-bottom: 3px;
   font-size: 1.3em;
   line-height: 0.5em;

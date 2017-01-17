@@ -34,7 +34,7 @@ h4, h5, h6 {
 }
 .modal-title {
   text-align: center;
-  padding-top: 20px;
+  padding-top: 6px;
   font-size: 2.3em;
 }
 figcaption.modal-body {
@@ -68,6 +68,24 @@ img.modal-body {
   overflow-y: scroll;
   height: 100vh;
 }
+
+.wraptocenter {
+  display: block;
+  text-align: center;
+  vertical-align: middle;
+}
+
+span#toggle-info-arc {
+  cursor: hand;
+}
+
+/*.image-wraper {
+  height: 500px;
+}*/
+
+/*img.image-wraper {
+  height: 400px;
+}*/
 
 /*.modal.fade .modal-dialog {
     -webkit-transform: scale(0.1);
