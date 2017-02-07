@@ -1,3 +1,11 @@
+# Version 2.3
+A major update to the portfolio: <br><br>
+1. Added and updated projects including: usability testing with Cengage, self-initiated game research project using big data, and the graphic design project.<br>
+2. Added summary and outline sections to each projects.<br>
+3. Cleaned up some formatting errors.<br>
+4. Added new content to the about section. The link to the blog is now online.<br>
+5. Established a blog using HubPress (https://lichengzhu.github.io/blog/). Published the first blog post under the new platform. Notice: future updates on the blog won't be included here in the journal.
+
 # Version 2.2
 A series of updates including:<br><br>
 1. Added a design project: ParkMe.<br>
