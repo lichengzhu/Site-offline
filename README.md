@@ -1,3 +1,6 @@
+# Version 3.0
+The site has been redesigned to point to my personal site hosed by Squarespace for the job searching purpose. The past site has been archived and can be found under the folder “version2_archived.”
+
 # Version 2.3
 A major update to the portfolio: <br><br>
 1. Added and updated projects including: usability testing with Cengage, self-initiated game research project using big data, and the graphic design project.<br>
