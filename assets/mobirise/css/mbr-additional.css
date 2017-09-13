@@ -1,8 +1,14 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+
 #header2-2 H1 {
   color: #ffffff;
-  font-size: 60px;
+  font-size: 72px;
 }
 #header2-2 P {
   color: #ffffff;
   font-size: 25px;
+}
+#header2-2 I {
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
 }
