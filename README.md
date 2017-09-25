@@ -1,3 +1,10 @@
+# Version 3.1
+Completely redesigned the website to focus on mainly ux/user research projects. Four projects included at this point: slack internship, a project of mixed-methods, a quant/ data mining project, and a lab study project. At this point, the quant/ data mining project is not on the front page, as it has low relevancy of the positions I apply for at this point, yet it will be put back once I make more significant progress. The lab study project is in “upcoming status.”  
+
+Next step:  
+1. Add more details to the lab study project.  
+2. Add linkedin recommendations once they are available.  
+
 # Version 3.0
 The site has been redesigned to point to my personal site hosed by Squarespace for the job searching purpose. The past site has been archived and can be found under the folder “version2_archived.”
 
