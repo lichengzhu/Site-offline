@@ -30,11 +30,11 @@
       ]
     },
     "versionFirst": "4.1.7",
-    "uniqCompNum": 142,
-    "versionPublish": "4.3.0",
+    "uniqCompNum": 143,
+    "versionPublish": "4.4.0",
     "favicon": "@PROJECT_PATH@/assets/images/book3-128x128.png",
     "noImageResize": "",
-    "google-analytics": ""
+    "google-analytics": "<!-- Hotjar Tracking Code for http://lichengzhu.github.io -->\r\n<script>\r\n    (function(h,o,t,j,a,r){\r\n        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};\r\n        h._hjSettings={hjid:659874,hjsv:6};\r\n        a=o.getElementsByTagName('head')[0];\r\n        r=o.createElement('script');r.async=1;\r\n        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;\r\n        a.appendChild(r);\r\n    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');\r\n</script>"
   },
   "pages": {
     "index.html": {
@@ -641,10 +641,7 @@
         {
           "_styles": {
             ".count": {
-              "color": "#74a3c7",
-              "font-family": "'Libre Franklin', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,600,600i",
-              "font-size": "84px"
+              "color": "#74a3c7"
             },
             ".count P": {
               "font-family": "'Libre Franklin', serif",
@@ -1274,7 +1271,7 @@
           "media2": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/quantitative2-600x5213.png",
+              "src": "@PROJECT_PATH@/assets/images/quantitative2-600x5210.png",
               "width": 600,
               "link": "",
               "alt": "",
@@ -1775,7 +1772,7 @@
             "image": {
               "active": true,
               "src": "@PROJECT_PATH@/assets/images/experiment-912x707.png",
-              "link": "page3.html",
+              "link": "",
               "alt": "",
               "title": ""
             }
@@ -1936,7 +1933,7 @@
             "showSubtitles": false,
             "showTabsList": false,
             "showButtons": false,
-            "tabs": "2",
+            "tabs": "1",
             "paddingTop": "3",
             "paddingBottom": "2",
             "bgImageRadio": false,
@@ -1991,7 +1988,7 @@
           "media2": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/img-600x8004.jpg",
+              "src": "@PROJECT_PATH@/assets/images/img-600x8001.jpg",
               "width": 600,
               "link": "",
               "alt": "",
@@ -2249,7 +2246,7 @@
           "media2": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/img-600x8004.jpg",
+              "src": "@PROJECT_PATH@/assets/images/img-600x8001.jpg",
               "width": 600,
               "link": "",
               "alt": "",
@@ -2752,7 +2749,7 @@
           "media2": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/quantitative2-600x5213.png",
+              "src": "@PROJECT_PATH@/assets/images/quantitative2-600x5210.png",
               "width": 600,
               "link": "",
               "alt": "",
@@ -3061,7 +3058,7 @@
           "media2": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/img-600x8004.jpg",
+              "src": "@PROJECT_PATH@/assets/images/img-600x8001.jpg",
               "width": 600,
               "link": "",
               "alt": "",
@@ -3157,7 +3154,7 @@
             "image": {
               "active": true,
               "src": "@PROJECT_PATH@/assets/images/experiment-912x707.png",
-              "link": "page3.html",
+              "link": "",
               "alt": "",
               "title": ""
             }
@@ -3731,7 +3728,7 @@
           "media1": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/network-multiple-640x4805.jpg",
+              "src": "@PROJECT_PATH@/assets/images/network-multiple-640x4802.jpg",
               "link": "",
               "alt": "",
               "title": "",
