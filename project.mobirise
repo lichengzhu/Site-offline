@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Portfolio",
-    "currentPage": "index.html",
+    "currentPage": "Slack.html",
     "theme": {
       "name": "directm",
       "title": "DirectM",
@@ -641,7 +641,10 @@
         {
           "_styles": {
             ".count": {
-              "color": "#74a3c7"
+              "color": "#74a3c7",
+              "font-family": "'Libre Franklin', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,600,600i",
+              "font-size": "84px"
             },
             ".count P": {
               "font-family": "'Libre Franklin', serif",
@@ -1271,7 +1274,7 @@
           "media2": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/quantitative2-600x5210.png",
+              "src": "@PROJECT_PATH@/assets/images/quantitative2-600x52112.png",
               "width": 600,
               "link": "",
               "alt": "",
@@ -1988,7 +1991,7 @@
           "media2": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/img-600x8001.jpg",
+              "src": "@PROJECT_PATH@/assets/images/img-600x80013.jpg",
               "width": 600,
               "link": "",
               "alt": "",
@@ -2246,7 +2249,7 @@
           "media2": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/img-600x8001.jpg",
+              "src": "@PROJECT_PATH@/assets/images/img-600x80013.jpg",
               "width": 600,
               "link": "",
               "alt": "",
@@ -2749,7 +2752,7 @@
           "media2": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/quantitative2-600x5210.png",
+              "src": "@PROJECT_PATH@/assets/images/quantitative2-600x52112.png",
               "width": 600,
               "link": "",
               "alt": "",
@@ -3058,7 +3061,7 @@
           "media2": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/img-600x8001.jpg",
+              "src": "@PROJECT_PATH@/assets/images/img-600x80013.jpg",
               "width": 600,
               "link": "",
               "alt": "",
@@ -3728,7 +3731,7 @@
           "media1": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/network-multiple-640x4802.jpg",
+              "src": "@PROJECT_PATH@/assets/images/network-multiple-640x48014.jpg",
               "link": "",
               "alt": "",
               "title": "",

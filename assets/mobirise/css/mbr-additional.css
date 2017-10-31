@@ -627,6 +627,7 @@ a:hover {
 
 
 
+
 #footer2-r .footer-list {
   color: #ffffff;
 }
@@ -648,6 +649,8 @@ a:hover {
 }
 #counters1-w .count {
   color: #74a3c7;
+  font-family: 'Libre Franklin', serif;
+  font-size: 84px;
 }
 #counters1-w .count P {
   font-family: 'Libre Franklin', serif;
