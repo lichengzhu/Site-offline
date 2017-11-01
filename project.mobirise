@@ -34,7 +34,7 @@
     "versionPublish": "4.4.0",
     "favicon": "@PROJECT_PATH@/assets/images/book3-128x128.png",
     "noImageResize": "",
-    "google-analytics": "<!-- Hotjar Tracking Code for http://lichengzhu.github.io -->\r\n<script>\r\n    (function(h,o,t,j,a,r){\r\n        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};\r\n        h._hjSettings={hjid:659874,hjsv:6};\r\n        a=o.getElementsByTagName('head')[0];\r\n        r=o.createElement('script');r.async=1;\r\n        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;\r\n        a.appendChild(r);\r\n    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');\r\n</script>"
+    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-88360097-2\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-88360097-2');\r\n</script>\r\n\r\n<!-- Hotjar Tracking Code for http://lichengzhu.github.io -->\r\n<script>\r\n    (function(h,o,t,j,a,r){\r\n        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};\r\n        h._hjSettings={hjid:659874,hjsv:6};\r\n        a=o.getElementsByTagName('head')[0];\r\n        r=o.createElement('script');r.async=1;\r\n        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;\r\n        a.appendChild(r);\r\n    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');\r\n</script>"
   },
   "pages": {
     "index.html": {
@@ -1274,7 +1274,7 @@
           "media2": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/quantitative2-600x52112.png",
+              "src": "@PROJECT_PATH@/assets/images/quantitative2-600x52118.png",
               "width": 600,
               "link": "",
               "alt": "",
@@ -1991,7 +1991,7 @@
           "media2": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/img-600x80013.jpg",
+              "src": "@PROJECT_PATH@/assets/images/img-600x80019.jpg",
               "width": 600,
               "link": "",
               "alt": "",
@@ -2249,7 +2249,7 @@
           "media2": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/img-600x80013.jpg",
+              "src": "@PROJECT_PATH@/assets/images/img-600x80019.jpg",
               "width": 600,
               "link": "",
               "alt": "",
@@ -2752,7 +2752,7 @@
           "media2": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/quantitative2-600x52112.png",
+              "src": "@PROJECT_PATH@/assets/images/quantitative2-600x52118.png",
               "width": 600,
               "link": "",
               "alt": "",
@@ -3061,7 +3061,7 @@
           "media2": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/img-600x80013.jpg",
+              "src": "@PROJECT_PATH@/assets/images/img-600x80019.jpg",
               "width": 600,
               "link": "",
               "alt": "",
@@ -3731,7 +3731,7 @@
           "media1": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/network-multiple-640x48014.jpg",
+              "src": "@PROJECT_PATH@/assets/images/network-multiple-640x48020.jpg",
               "link": "",
               "alt": "",
               "title": "",
