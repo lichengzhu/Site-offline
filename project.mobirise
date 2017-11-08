@@ -30,7 +30,7 @@
       ]
     },
     "versionFirst": "4.1.7",
-    "uniqCompNum": 148,
+    "uniqCompNum": 149,
     "versionPublish": "4.4.0",
     "favicon": "@PROJECT_PATH@/assets/images/book3-128x128.png",
     "noImageResize": "",
@@ -597,7 +597,7 @@
     "Slack.html": {
       "settings": {
         "title": "Project-Slack",
-        "order": 4
+        "order": 5
       },
       "components": [
         {
@@ -1345,7 +1345,7 @@
           "media2": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/quantitative2-600x5210.png",
+              "src": "@PROJECT_PATH@/assets/images/quantitative2-600x5213.png",
               "width": 600,
               "link": "",
               "alt": "",
@@ -1851,9 +1851,9 @@
               "title": ""
             }
           },
-          "title2": "<b>Lab Studies (upcoming)</b>",
+          "title2": "<b>Group Decision Making (upcoming)</b>",
           "subtitle2": "Awesome",
-          "text2": "A lab study project with rigorous experimental design that examines how does social environment affect how users personalize their mobile applications.",
+          "text2": "A experimental study that examines how does group composition affect how users adopt new technologies.",
           "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
           "_tags": [
             "Theme"
@@ -1889,7 +1889,7 @@
     "page2.html": {
       "settings": {
         "title": "Project-Mixed Methods",
-        "order": 3
+        "order": 4
       },
       "components": [
         {
@@ -2062,7 +2062,7 @@
           "media2": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/img-600x8001.jpg",
+              "src": "@PROJECT_PATH@/assets/images/img-600x8004.jpg",
               "width": 600,
               "link": "",
               "alt": "",
@@ -2320,7 +2320,7 @@
           "media2": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/img-600x8001.jpg",
+              "src": "@PROJECT_PATH@/assets/images/img-600x8004.jpg",
               "width": 600,
               "link": "",
               "alt": "",
@@ -2823,7 +2823,7 @@
           "media2": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/quantitative2-600x5210.png",
+              "src": "@PROJECT_PATH@/assets/images/quantitative2-600x5213.png",
               "width": 600,
               "link": "",
               "alt": "",
@@ -3132,7 +3132,7 @@
           "media2": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/img-600x8001.jpg",
+              "src": "@PROJECT_PATH@/assets/images/img-600x8004.jpg",
               "width": 600,
               "link": "",
               "alt": "",
@@ -3233,9 +3233,9 @@
               "title": ""
             }
           },
-          "title2": "<b>Lab Studies (upcoming)</b>",
+          "title2": "<b>Group Decision Making (upcoming)</b>",
           "subtitle2": "Awesome",
-          "text2": "A lab study project with rigorous experimental design that examines how does social environment affect how users personalize their mobile applications.",
+          "text2": "A experimental study that examines how does group composition affect how users adopt new technologies.",
           "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
           "_tags": [
             "Theme"
@@ -3271,7 +3271,7 @@
     "page3.html": {
       "settings": {
         "title": "Project-Quant",
-        "order": 2
+        "order": 3
       },
       "components": [
         {
@@ -3802,7 +3802,7 @@
           "media1": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/network-multiple-640x4802.jpg",
+              "src": "@PROJECT_PATH@/assets/images/network-multiple-640x4805.jpg",
               "link": "",
               "alt": "",
               "title": "",
@@ -3859,8 +3859,8 @@
     },
     "page4.html": {
       "settings": {
-        "title": "Project-Lab Studies",
-        "order": 1
+        "title": "Project-Experiment",
+        "order": 2
       },
       "components": [
         {
