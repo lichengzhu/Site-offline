@@ -10,6 +10,7 @@
 
 
 
+
 body,
 input,
 textarea,
@@ -544,18 +545,24 @@ a:hover {
   text-align: center;
   font-size: 18px;
 }
-#msg-box4-6 H1 {
-  color: #434343;
+#msg-box3-40 H1 {
+  color: #000000;
   font-family: 'Libre Franklin', serif;
-  font-size: 36px;
+  font-size: 48px;
 }
-#msg-box4-6 P {
-  color: #434343;
+#msg-box3-40 P {
+  color: #ffffff;
 }
-#msg-box4-6 .round-text {
+#msg-box3-40 .round-text {
+  color: #000000;
   text-align: left;
 }
-#msg-box4-6 B {
+#content3-43 .mbr-section-title,
+#content3-43 .mbr-section-subtitle {
+  text-align: center;
+}
+#content3-43 H1 {
+  font-family: 'Libre Franklin', serif;
   font-size: 48px;
 }
 #content3-b .mbr-section-title,
@@ -736,10 +743,6 @@ a:hover {
 #content3-1i H1 {
   color: #e3e3e3;
 }
-#features7-1k .mbr-iconfont {
-  color: undefined;
-  border-color: undefined;
-}
 #features7-1k .heading-title {
   font-family: 'Libre Franklin', serif;
   font-size: 60px;
@@ -747,10 +750,6 @@ a:hover {
 }
 #features7-1k .heading-title B {
   font-size: 48px;
-}
-#features7-1r .mbr-iconfont {
-  color: undefined;
-  border-color: undefined;
 }
 #features7-1r .heading-title {
   font-family: 'Libre Franklin', serif;
@@ -833,10 +832,6 @@ a:hover {
   font-family: 'Libre Franklin', serif;
   font-size: 48px;
 }
-#features7-2n .mbr-iconfont {
-  color: undefined;
-  border-color: undefined;
-}
 #features7-2n .heading-title {
   font-family: 'Libre Franklin', serif;
   font-size: 60px;
@@ -854,10 +849,6 @@ a:hover {
   font-family: 'Libre Franklin', serif;
   font-size: 48px;
   text-align: left;
-}
-#features7-2x .mbr-iconfont {
-  color: undefined;
-  border-color: undefined;
 }
 #features7-2x .heading-title {
   font-family: 'Libre Franklin', serif;
@@ -911,10 +902,6 @@ a:hover {
   font-family: 'Libre Franklin', serif;
   font-size: 48px;
 }
-#features7-3k .mbr-iconfont {
-  color: undefined;
-  border-color: undefined;
-}
 #features7-3k .heading-title {
   font-family: 'Libre Franklin', serif;
   font-size: 60px;
@@ -922,10 +909,6 @@ a:hover {
 }
 #features7-3k .heading-title B {
   font-size: 48px;
-}
-#features7-3i .mbr-iconfont {
-  color: undefined;
-  border-color: undefined;
 }
 #features7-3i .heading-title {
   font-family: 'Libre Franklin', serif;

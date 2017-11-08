@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Portfolio",
-    "currentPage": "Slack.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "directm",
       "title": "DirectM",
@@ -20,17 +20,17 @@
         "isScrollToTopButton": false
       },
       "additionalSetColors": [
+        "#ffffff",
+        "#f3f5fa",
+        "#dee3f1",
+        "#cefaef",
         "#f7f7f7",
         "#c0f7e9",
-        "#cae2f4",
-        "#acecdc",
-        "#4492ce",
-        "#631c70",
-        "#ffffff"
+        "#cae2f4"
       ]
     },
     "versionFirst": "4.1.7",
-    "uniqCompNum": 143,
+    "uniqCompNum": 148,
     "versionPublish": "4.4.0",
     "favicon": "@PROJECT_PATH@/assets/images/book3-128x128.png",
     "noImageResize": "",
@@ -94,36 +94,34 @@
         {
           "_styles": {
             "H1": {
-              "color": "#434343",
+              "color": "#000000",
               "font-family": "'Libre Franklin', serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,600,600i",
-              "font-size": "36px"
+              "font-size": "48px"
             },
             "P": {
-              "color": "#434343"
+              "color": "#ffffff"
             },
             ".round-text": {
+              "color": "#000000",
               "text-align": "left"
-            },
-            "B": {
-              "font-size": "48px"
             }
           },
           "_params": {
             "showTitle": true,
             "inverse": true,
             "showIcons": true,
-            "iconsBorder": false,
-            "iconsColor": "#434343",
+            "iconsBorder": true,
+            "iconsColor": "#000000",
             "iconsNumber": "three",
-            "imageSize": "35",
-            "containerColor1": "#455c97",
-            "containerColor2": "#94a5d0",
+            "imageSize": "34",
+            "containerColor1": "#ffffff",
+            "containerColor2": "#ffffff",
             "paddingTop": "2",
             "paddingBottom": "2",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/_background/accordion1.jpg",
-            "parallax": true,
+            "parallax": false,
             "bgColorRadio": true,
             "bgColor": "#ffffff",
             "bgVideoRadio": false,
@@ -134,7 +132,7 @@
             "overlayColor": "#fff",
             "overlayOpacity": 0.8
           },
-          "title": "<b>How I Research</b><br><b><br></b>",
+          "title": "<b>How I Research</b><br><br>",
           "text1": "I define challenges and problem space",
           "text2": "I see big pictures and play in teams",
           "text3": "I deliver creative and efficient solutions",
@@ -144,8 +142,7 @@
               "src": "@PROJECT_PATH@/assets/images/profile-avatar-612x792.png",
               "link": "",
               "alt": "",
-              "title": "",
-              "linkInNewWindow": false
+              "title": ""
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features4",
@@ -168,8 +165,7 @@
               "linkInNewWindow": false,
               "name": "search",
               "family": "MobiriseIcons",
-              "active": true,
-              "link": "https://mobirise.com"
+              "active": true
             }
           },
           "media2": {
@@ -178,8 +174,7 @@
               "linkInNewWindow": false,
               "name": "unlink",
               "family": "MobiriseIcons",
-              "active": true,
-              "link": "https://mobirise.com"
+              "active": true
             }
           },
           "media3": {
@@ -188,15 +183,91 @@
               "linkInNewWindow": false,
               "name": "rocket",
               "family": "MobiriseIcons",
-              "active": true,
-              "link": "https://mobirise.com"
+              "active": true
             }
           },
           "_tags": [
             "Theme"
           ],
-          "_name": "msg-box4",
-          "_anchor": "msg-box4-6"
+          "_name": "msg-box3",
+          "_anchor": "msg-box3-40"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H1": {
+              "font-family": "'Libre Franklin', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,600,600i",
+              "font-size": "48px"
+            }
+          },
+          "_params": {
+            "showMeta": false,
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgColor": "#fff"
+          },
+          "title": "<b>What My Collegues Say</b> 💬",
+          "meta": "By <b>John Smith</b> posted July 20, 2016",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content3",
+          "_anchor": "content3-43"
+        },
+        {
+          "_params": {
+            "showTitle": false,
+            "showSubtitle": false,
+            "showImages": false,
+            "showName": true,
+            "showBio": true,
+            "autoplay": true,
+            "arrowColor": "#f7f7f7",
+            "timeout": 5,
+            "paddingTop": 1,
+            "paddingBottom": "1",
+            "showBullets": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/_baclground/msg-box3.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#f3f5fa",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": false,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.5,
+            "slides": [
+              {
+                "active": true,
+                "text": "<p>\"I highly recommend adding Licheng to your team; his enthusiasm to learn, his smart contributions to designs, and his empathy for users is an asset to any organization.\"</p>",
+                "authorName": "Tonya McCarley",
+                "authorBio": "Product Manager at DaySmart Software",
+                "media": {
+                  "image": {
+                    "src": "@THEME_PATH@/components/_images/slider/face1.jpg",
+                    "class": "img-circle",
+                    "link": "https://mobirise.com",
+                    "height": 160,
+                    "width": 160,
+                    "active": true
+                  }
+                }
+              }
+            ]
+          },
+          "title": "What our fantastic users say",
+          "subtitle": "Shape your future web project with sharp design and refine coded functions.",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials1",
+          "_anchor": "testimonials1-42"
         },
         {
           "_styles": {
@@ -214,7 +285,7 @@
           },
           "_params": {
             "showMeta": false,
-            "paddingTop": "2",
+            "paddingTop": "7",
             "paddingBottom": "2",
             "bgColor": "#fff"
           },
@@ -302,7 +373,7 @@
             "bgImage": "file:///Users/lichengzhu/Library/Application%20Support/Mobirise.com/Mobirise/projectData/header3.jpg",
             "parallax": false,
             "bgColorRadio": true,
-            "bgColor": "#f7f7f7",
+            "bgColor": "#f3f5fa",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
@@ -328,8 +399,8 @@
               "loop": false
             }
           },
-          "title": "<b>Mixed-Methods Research, Organized</b>",
-          "text": "International Research |<i> \"An excellent piece of exploratory research\" --- Advisor</i><br><br>I take pride in the PhD-level sociological research trainings I received at the University of Chicago, where I learned to do robust and rigorous research. <br><br>This research was originally intended to serve as the first chapter of my dissertation, but later became a stand-alone project.&nbsp;In it, I deployed a variety of research methods involving in-depth, remote, semi-structured interviews and qualitative coding, surveys and statistical analysis and modeling, as well as web crawling to collect data. All of these methods are to serve one goal: to explore the unknown space of Chinese environmental NGOs and understand the mechanisms behind the formation of their organizational forms.&nbsp;<br><br>",
+          "title": "<b>Genesis of Organizational Forms</b>",
+          "text": "Mixed-Methods Research | International Research |<i>&nbsp;</i>Foundational Research<br><br>I take pride in the PhD-level sociological research trainings I received at the University of Chicago, where I learned to do robust and rigorous research. <br><br>This project aims to investigate how new organizational forms are generated. The research was originally intended to serve as the first chapter of my dissertation, but later became a stand-alone project.&nbsp;In it, I deployed a variety of research methods involving in-depth, remote, semi-structured interviews and qualitative coding, surveys and statistical analysis and modeling, as well as web crawling to collect data. All of these methods are to serve one goal: to explore the unknown space of Chinese environmental NGOs and understand the mechanisms behind the formation of their organizational forms.&nbsp;<br><br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"page2.html\" data-toolbar=\"-mbrBtnMove\">Learn more</a>",
           "_tags": [
             "Theme"
@@ -390,8 +461,8 @@
               "loop": false
             }
           },
-          "title": "<b>Lab Studies &amp; Experiments (upcoming)</b>",
-          "text": "Lab Studies | Usability Studies | Experimental Design |&nbsp;Data Analysis<br><br>Conventional usability tests face a deep-rooted tension: formal lab studies seek rigorous control of individual and environmental factors but are hard to generalize findings, while field studies embrace natural use of systems but cannot guarantee high internal validity. <br><br>By strictly controlling quality of social networks — level of interpersonal acquaintance — I examine how does social environment affect how users personalize their mobile applications. I strive to bridge the gap between field studies and one-on-one lab studies by brining social contexts into the lab, while controlling unnecessary variations. The project includes complete process of lab studies, including usability/experimental design, moderating studies, data collection, data analysis and reports.&nbsp;<br><br>Upcoming...",
+          "title": "<b>Group Composition and Decision-Making on Adopting New Technologies&nbsp;</b>",
+          "text": "(Ongoing) Experimental Design | Consumer Behavior | Statistical Analysis<br><br>In many scenarios, users have first exposure to product/service within a group, and thus they make decisions of whether to use or not to use it in a group setting, e.g. buying a car, purchasing a ticket for a new broadway show, etc. Therefore, understanding the decision-making process in a group environment becomes crucial for product design and overall user experience.<br><br>In this experimental study, I aim to understand the effect of group composition on group decision making by controlling for the type of members reside in a group. Group members are asked to do a “treasure hunt” of finding a item to purchase on a unfamiliar online shopping site. They have to eventually make a unanimous decision together. Following the Technology Acceptance Model (TAM), perceived usefulness and perceived ease of use are measured by an exit survey at the end of the experiment. &nbsp;<br><br>Upcoming...",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Upcoming</a>",
           "_tags": [
             "Theme"
@@ -466,8 +537,8 @@
             "inverse": false,
             "showArrow": false,
             "imageSize": "30",
-            "paddingTop": "2",
-            "paddingBottom": "2",
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/_background/header3.jpg",
             "parallax": false,
@@ -1274,7 +1345,7 @@
           "media2": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/quantitative2-600x52118.png",
+              "src": "@PROJECT_PATH@/assets/images/quantitative2-600x5210.png",
               "width": 600,
               "link": "",
               "alt": "",
@@ -1991,7 +2062,7 @@
           "media2": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/img-600x80019.jpg",
+              "src": "@PROJECT_PATH@/assets/images/img-600x8001.jpg",
               "width": 600,
               "link": "",
               "alt": "",
@@ -2249,7 +2320,7 @@
           "media2": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/img-600x80019.jpg",
+              "src": "@PROJECT_PATH@/assets/images/img-600x8001.jpg",
               "width": 600,
               "link": "",
               "alt": "",
@@ -2752,7 +2823,7 @@
           "media2": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/quantitative2-600x52118.png",
+              "src": "@PROJECT_PATH@/assets/images/quantitative2-600x5210.png",
               "width": 600,
               "link": "",
               "alt": "",
@@ -3061,7 +3132,7 @@
           "media2": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/img-600x80019.jpg",
+              "src": "@PROJECT_PATH@/assets/images/img-600x8001.jpg",
               "width": 600,
               "link": "",
               "alt": "",
@@ -3731,7 +3802,7 @@
           "media1": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/network-multiple-640x48020.jpg",
+              "src": "@PROJECT_PATH@/assets/images/network-multiple-640x4802.jpg",
               "link": "",
               "alt": "",
               "title": "",
