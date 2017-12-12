@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Portfolio",
-    "currentPage": "index.html",
+    "currentPage": "page2.html",
     "theme": {
       "name": "directm",
       "title": "DirectM",
@@ -31,7 +31,7 @@
     },
     "versionFirst": "4.1.7",
     "uniqCompNum": 149,
-    "versionPublish": "4.4.0",
+    "versionPublish": "4.5.1",
     "favicon": "@PROJECT_PATH@/assets/images/book3-128x128.png",
     "noImageResize": "",
     "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-88360097-2\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-88360097-2');\r\n</script>\r\n\r\n<!-- Hotjar Tracking Code for http://lichengzhu.github.io -->\r\n<script>\r\n    (function(h,o,t,j,a,r){\r\n        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};\r\n        h._hjSettings={hjid:659874,hjsv:6};\r\n        a=o.getElementsByTagName('head')[0];\r\n        r=o.createElement('script');r.async=1;\r\n        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;\r\n        a.appendChild(r);\r\n    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');\r\n</script>"
@@ -449,7 +449,7 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/experiment-912x707.png",
+              "src": "@PROJECT_PATH@/assets/images/lab-535x367.jpg",
               "link": "",
               "alt": "",
               "title": ""
@@ -462,7 +462,7 @@
             }
           },
           "title": "<b>Group Composition and Decision-Making on Adopting New Technologies&nbsp;</b>",
-          "text": "(Ongoing) Experimental Design | Consumer Behavior | Statistical Analysis<br><br>In many scenarios, users have first exposure to product/service within a group, and thus they make decisions of whether to use or not to use it in a group setting, e.g. buying a car, purchasing a ticket for a new broadway show, etc. Therefore, understanding the decision-making process in a group environment becomes crucial for product design and overall user experience.<br><br>In this experimental study, I aim to understand the effect of group composition on group decision making by controlling for the type of members reside in a group. Group members are asked to do a “treasure hunt” of finding a item to purchase on a unfamiliar online shopping site. They have to eventually make a unanimous decision together. Following the Technology Acceptance Model (TAM), perceived usefulness and perceived ease of use are measured by an exit survey at the end of the experiment. &nbsp;<br><br>Upcoming...",
+          "text": "(Ongoing) Experimental Design | Consumer Behavior | Statistical Analysis<br><br>In many scenarios, users have first exposure to product/service within a group, and thus they make decisions of whether to use or not to use it in a group setting, e.g. buying a car, purchasing a ticket for a new broadway show, etc. Therefore, understanding the decision-making process in a group environment becomes crucial for product design and overall user experience.<br><br>In this experimental study, I aim to understand the effect of group composition on group decision making by controlling for the social relations of members reside in a group. Group members are asked to do a “treasure hunt” of finding a item to purchase on a unfamiliar online shopping site. They have to eventually make a unanimous decision together. Following the Technology Acceptance Model (TAM), perceived usefulness and perceived ease of use are measured by an exit survey at the end of the experiment. &nbsp;<br><br>Upcoming...",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Upcoming</a>",
           "_tags": [
             "Theme"
@@ -570,7 +570,7 @@
             }
           },
           "title": "<b>About Me</b><b><br></b>",
-          "text": "<br>My name is Licheng. I am a ramen-eating user researcher who likes to solve complex problems. My research approach is always business-aware, where I select and mix up a variety of research methodologies to deliver most effective and efficient solutions. <br><br>I ventured into user research from being a passionate sociologist for 6 years in academia. I worked for NGOs, a governmental contractor of polling and a hyper-growing tech startup. Throughout my career, I have always focused on human stories and how they navigate through the fast-changing environments around them. <br><br>Capturing and comprehending emotions and motivations is always the center of my work. I find myself incredibly joyful when I connect with people, think from their perspectives, and solve their issues. Interviews are one of my favorite methods of all time, though I also utilize more statistically and computationally-intensive methods to study user types, needs and interactions.<br><br>I am also a gamer, a tea-drinker, a technologist, a traveler, a hugger, and a surprisingly good singer in shower.<br><br>Check out my&nbsp;<a href=\"https://www.dropbox.com/s/e46ini7icbq24kb/Licheng%20Zhu%20Resume.pdf?dl=0\" target=\"_blank\">resume</a>&nbsp;for more details.<br><br><br><br><br>",
+          "text": "<br>My name is Licheng. I am a ramen-eating user researcher who likes to solve complex problems. My research approach is always business-aware, where I select and mix up a variety of research methodologies to deliver most effective and efficient solutions. <br><br>I ventured into user research from being a passionate sociologist for 6 years in academia. I worked for NGOs, a governmental contractor of polling and a hyper-growing tech startup. Throughout my career, I have always focused on human stories and how they navigate through the fast-changing environments around them. <br><br>Capturing and comprehending emotions and motivations is always the center of my work. I find myself incredibly joyful when I connect with people, think from their perspectives, and solve their issues. Interviews are one of my favorite methods of all time, though I also utilize more statistically and computationally-intensive methods to study user types, needs and interactions.<br><br>I am also a gamer, a tea-drinker, a technologist, a traveler, a hugger, and a surprisingly good singer in shower.<br><br>Check out my&nbsp;<a href=\"assets/files/Licheng%20Zhu%20Resume.pdf\" target=\"_blank\">resume</a>&nbsp;for more details.<br><br><br><br><br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">RESUME</a>",
           "_tags": [
             "Theme"
@@ -765,7 +765,7 @@
             "paddingBottom": "3",
             "bgColor": "#ffffff"
           },
-          "text": "*Excluding 2 weeks at the end of my internship where I was hospitalized. Much love to my team as they visited me constantly.",
+          "text": "*Excluding week 11 and 12 at the end of my internship where I was hospitalized. Much love to my team as they visited me constantly.",
           "_tags": [
             "Theme"
           ],
@@ -1026,7 +1026,7 @@
             "overlayColor": "#ffffff",
             "overlayOpacity": 0.8
           },
-          "title": "<b>Secondary Desk Research: Building Common Ground</b><br><br>",
+          "title": "<b>Secondary Desk Research</b><br><br>",
           "title1": "Boost your ranking",
           "title2": "Bootstrap builder",
           "title3": "Trendy website blocks",
@@ -1193,7 +1193,7 @@
             "overlayColor": "#ffffff",
             "overlayOpacity": 0.8
           },
-          "title": "<b>Interviews: Understanding Contextualized Needs and Processes</b><br><b><br></b>",
+          "title": "<b>Interviews to understand contextualized needs and processes</b><br><b><br></b>",
           "title1": "Boost your ranking",
           "title2": "Bootstrap builder",
           "title3": "Trendy website blocks",
@@ -1345,7 +1345,7 @@
           "media2": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/quantitative2-600x5213.png",
+              "src": "@PROJECT_PATH@/assets/images/quantitative2-600x5210.png",
               "width": 600,
               "link": "",
               "alt": "",
@@ -1420,7 +1420,7 @@
             "overlayColor": "#616161",
             "overlayOpacity": 0.8
           },
-          "title": "<b>Usability Studies: User-Centered throughout Development Process</b>",
+          "title": "<b>Usability testing: 3 Kinds</b>",
           "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Download for Windows</a><a data-app-btn=\"true\" class=\"btn btn-lg btn-empty\" href=\"https://mobirise.com\">Or view demo</a>",
           "media1": {
@@ -1523,7 +1523,7 @@
             "overlayColor": "#ffffff",
             "overlayOpacity": 0.8
           },
-          "title": "<b>Survey &amp; Statistical Analysis: Mining Hidden Details</b><br><b><br></b>",
+          "title": "<b>Survey &amp; Statistical Analysis for User Clustering&nbsp;</b><br><b><br></b>",
           "title1": "Boost your ranking",
           "title2": "Bootstrap builder",
           "title3": "Trendy website blocks",
@@ -1792,7 +1792,7 @@
             }
           },
           "title": "Intro with Media",
-          "text": "<i>\"Every decision is a business decision.\"</i> - April, VP of Product<br><br>One particular area that I improved was about composing concise, readable but also detailed and informative reports from depth interviews. Under the guidance of my lovely mentor and manager, I revised my report several times. Their constructive feedback help me to be even more aware of wording, and the implications that I did not anticipate. The feedback also helps me to avoid reporting every details that I find interesting, and to strengthen the focus of my reports on business considerations and bigger business pictures.<br><br>I am extremely grateful for my hosts. Not only did they help me to become a researcher who is able to strategically position research in the business environment, but I also learned to do meaningful user research in the fast-changing technology world. I know now that <b>every research decision is a business decision</b>.<br><br>Now, I am confident and ready to embrace any challenges that await.<br>",
+          "text": "<i>\"Every [research] decision is a business decision.\"</i> - April, VP of Product<br><br>One particular area that I improved was about composing concise, readable but also detailed and informative reports from depth interviews. Under the guidance of my lovely mentor and manager, I revised my report several times. Their constructive feedback help me to be even more aware of wording, and the implications that I did not anticipate. The feedback also helps me to avoid reporting every details that I find interesting, and to strengthen the focus of my reports on business considerations and bigger business pictures.<br><br>I am extremely grateful for my hosts. Not only did they help me to become a researcher who is able to strategically position research in the business environment, but I also learned to do meaningful user research in the fast-changing technology world. I know now that <b>every research decision is a business decision</b>.<br><br>Now, I am confident and ready to embrace any challenges that await.<br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
           "_tags": [
             "Theme"
@@ -2062,7 +2062,7 @@
           "media2": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/img-600x8004.jpg",
+              "src": "@PROJECT_PATH@/assets/images/img-600x8001.jpg",
               "width": 600,
               "link": "",
               "alt": "",
@@ -2320,7 +2320,7 @@
           "media2": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/img-600x8004.jpg",
+              "src": "@PROJECT_PATH@/assets/images/img-600x8001.jpg",
               "width": 600,
               "link": "",
               "alt": "",
@@ -2823,7 +2823,7 @@
           "media2": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/quantitative2-600x5213.png",
+              "src": "@PROJECT_PATH@/assets/images/quantitative2-600x5210.png",
               "width": 600,
               "link": "",
               "alt": "",
@@ -3132,7 +3132,7 @@
           "media2": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/img-600x8004.jpg",
+              "src": "@PROJECT_PATH@/assets/images/img-600x8001.jpg",
               "width": 600,
               "link": "",
               "alt": "",
@@ -3802,7 +3802,7 @@
           "media1": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/network-multiple-640x4805.jpg",
+              "src": "@PROJECT_PATH@/assets/images/network-multiple-640x4802.jpg",
               "link": "",
               "alt": "",
               "title": "",
@@ -3926,7 +3926,7 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/experiment-912x707.png",
+            "bgImage": "@PROJECT_PATH@/assets/images/lab-2-535x367.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "containerColor1": "#094587",
@@ -3936,7 +3936,7 @@
               "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
             },
             "overlay": true,
-            "overlayColor": "#455c97",
+            "overlayColor": "#2d2d2d",
             "overlayOpacity": "0.8"
           },
           "media": {
@@ -3952,8 +3952,8 @@
               "loop": false
             }
           },
-          "title": "Lab Studies &amp; Experiments",
-          "text": "<br>Bringing social contexts to lab testings",
+          "title": "Lab &amp; Experimental Studies",
+          "text": "<br>Group Composition and Decision Making on Adopting New Technologies &nbsp;",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
           "_tags": [
             "Theme"
